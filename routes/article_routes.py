@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 from models.article_model import *
 
-article_bp = Blueprint("articles", __name__)
+article_bp = Blueprint("articles", __name__, url_prefix="/api")
 
 @article_bp.get("/articles")
 def fetch_articles():
