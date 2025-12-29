@@ -57,3 +57,6 @@ Access at `http://localhost:5173`.
 
 
 ## Live link for FrontEnd project
+```
+https://beyond-chat-api.vercel.app/
+```
