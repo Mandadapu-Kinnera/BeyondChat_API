@@ -14,6 +14,6 @@ def get_db_connection():
         host=url.hostname,
         user=url.username,
         password=url.password,
+        port=url.port,
         database=url.path.lstrip("/"),
-        port=url.port
     )
