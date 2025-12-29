@@ -14,8 +14,7 @@ function App() {
   const fetchArticles = async () => {
     try {
 
-      const res = await axios.get('http://localhost:5000/articles')
-
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/articles`)
 
       const sorted = Array.isArray(res.data)
         ? res.data.sort((a, b) => b.id - a.id)
