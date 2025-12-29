@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://beyondchat-api-rs3o.onrender.com/:path*"
+    }
+  ]
+}
