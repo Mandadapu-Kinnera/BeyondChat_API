@@ -1,4 +1,4 @@
-# BeyondChats Scraper - Phase 2 & 3
+# BeyondChats Scraper
 
 This project extends the original scraper with an AI-powered content updater and a modern React frontend.
 
@@ -10,7 +10,7 @@ This project extends the original scraper with an AI-powered content updater and
 
 ## Setup & Running
 
-### 1. Backend (API)
+### 1. Pahe 1: Backend (API)
 Ensure the Python backend is running:
 ```bash
 pip install -r requirements.txt
