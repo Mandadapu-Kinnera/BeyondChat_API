@@ -56,4 +56,4 @@ Access at `http://localhost:5173`.
 ```
 
 
-## Live link for fron end project
+## Live link for FrontEnd project
